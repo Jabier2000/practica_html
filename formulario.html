@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Contacto</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+  <div class="nav">
+    <a href="index.html">Inicio</a>
+    <a href="formulario.html">Formulario</a>
+  </div>
+
+  <center>
+  <h1>Bienvenido a la página de contacto</h1>
+  <p><small><i>Si eres vegetariano, vete</i></small></p><br>
+  </center>
+
+  <section class="mitad">
+  <form method="get" action="index.html" class="">
+      <label for="nombre" class="label_form">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required><br>
+      
+      <label for="correo" class="label_form">Correo:</label>
+      <input type="email" id="correo" name="correo" required><br>
+      
+      <label class="label_form">Genero:</label>
+        <label for="masculino">Masc.</label>
+        <input type="radio" id="masculino" name="genero" value="masculino" checked>
+        <label for="femenino">Fem.</label>
+        <input type="radio" id="femenino" name="genero" value="femenino"><br>
+      
+      <label for="contrasena" class="label_form">Contraseña:</label>
+      <input type="password" id="contrasena" name="contrasena" required><br>
+      
+      <label for="comentario" class="label_form">Comentario:</label>
+      <textarea id="comentario" name="comentario"></textarea><br>
+      
+      <label for="ciudad" class="label_form">Ciudad:</label>
+      <select id="ciudad" name="ciudad">
+          <option value="ciudad1">Guadalajara</option>
+          <option value="ciudad2">Zapopan</option>
+          <option value="ciudad3">Tonalá</option>
+          <option value="otra">Otra</option>
+      </select><br>
+      
+      <label for="interes" class="label_form">Me interesa contratarte:</label>
+      <input type="checkbox" id="interes" name="interes" value="si"><br>
+      
+      <button type="submit">Enviar</button>
+  </form>
+  </section>
+  <section  class="mitad"><img src="cat.png" width="180" height="200"></section>
+
+  <div class="footer">
+    <section>
+        <h2>Todos los derechos resevados ® ayer - hoy</h2>
+        <p>Este contenido es ajeno a cualquier partido político. Come frutasy verduras.</p>
+    </section>
+  </div>
+
+</body>
+</html>

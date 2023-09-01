@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  background-color: #333333;
+  color: #fff;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.nav a:hover {
+  color: #ff9900;
+}
+
+.listac {
+  text-align: center;
+}
+
+.listac li {
+  text-align: left;
+  margin-right: 10px;
+  list-style-position: inside;
+}
+
+section {
+  padding: 30px; 
+}
+
+.lado {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.s_info {
+  text-align: center;
+  background-color: #FF5733
+}
+
+.listas {
+  display: flex;
+}
+
+.s_cono {
+  background-color: #FFD700;
+  flex-basis: 50%
+}
+
+.s_fort {
+  background-color: #32CD32;
+  flex-basis: 50%;
+}
+
+.s_proy {
+  text-align: center;
+  background-color: #B39DDB;
+}
+
+.s_proy {
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  border-style: dotted;
+  border: 2px solid #000000;
+}
+
+th, td {
+  padding: 10px;
+}
+
+.tp {
+  color: white;
+  background-color: purple;
+}
+
+.s_tesla {
+  background-color: #33FFF9;
+}
+
+span {
+  font-weight: bold;
+}
+
+.footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+/*FORMULARIO*/
+form {
+  border: 2px solid #000000;
+  padding: 20px;
+}
+
+form textarea {
+    resize: none;
+}
+
+form button {
+  margin-top: 20px; /* Ajusta el espacio entre el último campo y el botón */
+  margin-left: 50%; /* Añade un margen izquierdo para mover el botón hacia la derecha */
+}
+
+.mitad {
+  display: inline-block;
+  padding: 30px;
+}
+
+.label_form {
+  display: inline-block;
+  width: 150px;
+  text-align: right;
+  margin-right: 10px;
+}
