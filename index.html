@@ -3,13 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <title>Presentación</title>
-  <link rel="stylesheet" href="estilos.css">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
 </head>
 <body>
 
-  <div class="nav">
-    <a href="index.html">Inicio</a>
-    <a href="formulario.html">Formulario</a>
+  <div class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+    <a class="btn btn-dark" href="index.html">Inicio</a>
+    <a class="btn btn-dark" href="formulario.html">Formulario</a>
   </div>
 
   <center><h1><b>S</b><i>antillán</i> <b>H</b><i>ernández</i> <b>J</b><i>avier</i></h1></center>
@@ -24,11 +27,11 @@
       <h2>Mis conocimientos</h2>
       <div class="listac">
         <ul>
-          <li>Soy bueno para la ortografía (sigo aprendiendo).</li>
-          <li>Se lo básico de: C.</li>
-          <li>Se lo básico de: C++.</li>
-          <li>Se lo básico de: Java.</li>
-          <li>Se lo básico de: Pyhton.</li>
+          <li class="list-group-item list-group-item-primary">Soy bueno para la ortografía (sigo aprendiendo).</li>
+          <li class="list-group-item list-group-item-primary">Se lo básico de: C.</li>
+          <li class="list-group-item list-group-item-primary">Se lo básico de: C++.</li>
+          <li class="list-group-item list-group-item-primary">Se lo básico de: Java.</li>
+          <li class="list-group-item list-group-item-primary">Se lo básico de: Pyhton.</li>
         </ul>
       </div>
     </section>
@@ -37,9 +40,9 @@
       <h2>Mis fortalezas</h2>
       <div class="listac">
         <ol>
-          <li>Soy honesto.</li>
-          <li>Soy responsable.</li>
-          <li>Sé decir que no.</li>
+          <li class="list-group-item list-group-item-danger">Soy honesto.</li>
+          <li class="list-group-item list-group-item-danger">Soy responsable.</li>
+          <li class="list-group-item list-group-item-danger">Sé decir que no.</li>
         </ol>
     </div>
     </section>
@@ -47,7 +50,7 @@
 
   <section class="s_proy">
     <h2>Mis proyectos</h2>
-    <table border="1">
+    <table class="table table-dark table-striped">
       <tr>
         <td class="tp">Vélik</td>
         <td class="tp">Sniffer de redes</td>
@@ -78,7 +81,7 @@
   </section>
 
   <div class="footer">
-    <section>
+    <section class="d-block p-2 text-bg-dark">
         <h2>¡Contáctame!</h2>
         <p>Puedes ponerte en contacto conmigo dando clic en el siguiente vínculo:</p>
         <a href="mailto:javier.santillan@alumnos.udg.mx">Envíame un correo</a>
